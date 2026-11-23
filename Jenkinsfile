@@ -59,7 +59,7 @@ pipeline {
         stage('Dependency Management (SCA)') {
             steps {
                 sh 'pip-audit -r requirements.txt -r requirements-dev.txt --format json --output reports/pip-audit.json'
-                sh 'pip-audit -r requirements.txt -r requirements-dev.txt > reports/pip-audit.txt'
+                sh 'pip-audit -r requirements.txt -r requirements-dev.txt > reports/pip-audit.txt 2>&1'
             }
         }
 

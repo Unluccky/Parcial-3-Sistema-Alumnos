@@ -24,7 +24,7 @@ pruebas funcionales, SAST, SCA, DAST en staging y despliega a producción solo d
 |---|---|
 | `app.py` | Aplicación corregida: escape HTML, SQL parametrizado, gestión externa de secreto, CSRF, limitación de login y encabezados seguros |
 | `tests/` | Pruebas funcionales (pytest). Deben seguir pasando después de corregir |
-| `requirements.txt` | Dependencias de ejecución (antiguas a propósito) |
+| `requirements.txt` | Dependencias de ejecución con versiones revisadas y fijadas |
 | `requirements-dev.txt` | Dependencias solo de pruebas |
 | `Jenkinsfile` | Pipeline: Build → Test → Bandit → pip-audit → staging → OWASP ZAP → producción con gate |
 | `scripts/deploy.sh` | Despliega en `staging` (5001) o `produccion` (5000) y hace prueba de humo |
