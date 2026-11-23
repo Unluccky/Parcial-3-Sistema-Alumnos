@@ -1,0 +1,8 @@
+== 1. Fuerza bruta en /login
+   31 intentos. Ninguna clave funcionó. 21 intentos bloqueados (HTTP 429).
+== 2. Inyección SQL en /alumnos/buscar
+   HTTP 200. La inyección no devolvió datos internos.
+== 3. XSS reflejado en /hello
+   HTTP 200. El script no se ejecutaría (se escapó o no es HTML).
+
+Revisa ahora el dashboard de Grafana: logins fallidos y peticiones sospechosas deberían subir.

@@ -1,0 +1,5 @@
+Objetivo: http://jenkins:5001
+Tipos de alerta por riesgo: High=0, Medium=0, Low=0, Informational=2
+
+[Informational] Session Management Response Identified  (2 URL)  ej.: http://jenkins:5001
+[Informational] User Agent Fuzzer  (1 URL)  ej.: http://jenkins:5001

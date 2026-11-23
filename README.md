@@ -100,3 +100,11 @@ docker compose exec taller python3 scripts/simular_ataque.py http://jenkins:5000
 ```
 
 Los intentos fallidos incrementan contadores y alcanzan HTTP 429 al superar el límite configurado. ZAP debe escanear staging desde Jenkins; no se debe escanear una app publicada en Internet.
+
+## Evidencias de la evaluación
+
+- `docs/Desarrollo EV3.docx`: pauta completada con los resultados verificados.
+- `docs/Evidencias_Desarrollo_EV3.docx`: 14 láminas-resumen vinculadas a la pauta. Son resúmenes exportados; los registros originales se conservan bajo `docs/evidencias/build-3/`.
+- `docs/evidencias/build-3/`: salidas de Jenkins #3, JUnit, Bandit, pip-audit, OWASP ZAP, trazabilidad, métricas Prometheus, simulación local y estado de Grafana/Dependabot.
+
+Resultado final documentado: Jenkins build #3 SUCCESS, commit `9bbee95`, versión `1.0.3+9bbee95`, 14/14 pruebas, 0 vulnerabilidades conocidas por pip-audit y 0 alertas High/Medium/Low en ZAP.

@@ -1,0 +1,13 @@
+{
+  "threshold": 5,
+  "for": "30s",
+  "query_value": 10.203454545454544,
+  "rule_uid": "login-failures-production",
+  "observed_timeline": "La alerta apareció en la consulta API de Alertmanager del laboratorio; value B=1 indica que la condición superó el umbral.",
+  "severity": "warning",
+  "state": "active",
+  "window": "1m",
+  "summary": "Más de cinco intentos fallidos de inicio de sesión en un minuto.",
+  "rule": "Aumento de intentos de acceso fallidos",
+  "observed_at_utc": "2026-11-23T20:40:10Z"
+}

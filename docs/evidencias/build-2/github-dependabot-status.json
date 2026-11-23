@@ -1,0 +1,13 @@
+{
+  "alerts": "enabled",
+  "security_updates": "enabled",
+  "repo": {
+    "default_branch": "main",
+    "html_url": "https://github.com/Unluccky/Parcial-3-Sistema-Alumnos",
+    "name": "Parcial-3-Sistema-Alumnos",
+    "private": true
+  },
+  "verified_at": "2026-11-23 17:41 -03:00",
+  "alerts_http_status": 204,
+  "security_updates_enabled": true
+}

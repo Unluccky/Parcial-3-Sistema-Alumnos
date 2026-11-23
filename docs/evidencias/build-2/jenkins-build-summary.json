@@ -1,0 +1,53 @@
+{
+  "started_at_utc": "2026-11-23T20:28:15Z",
+  "result": "SUCCESS",
+  "duration_ms": 408980,
+  "commit": "a0bd58f",
+  "tests": {
+    "_class": "hudson.tasks.junit.TestResult",
+    "failCount": 0,
+    "passCount": 14,
+    "skipCount": 0
+  },
+  "number": 2,
+  "url": "http://localhost:8080/job/EV3-Sistema-Alumnos/2/",
+  "stages": [
+    {
+      "name": "Declarative: Checkout SCM",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Build",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Test",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Security Review (SAST)",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Dependency Management (SCA)",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Deploy Staging",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "DAST - OWASP ZAP",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Deploy Producción",
+      "status": "SUCCESS"
+    },
+    {
+      "name": "Declarative: Post Actions",
+      "status": "SUCCESS"
+    }
+  ],
+  "version": "1.0.2+a0bd58f"
+}

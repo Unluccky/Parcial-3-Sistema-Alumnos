@@ -1,0 +1,10 @@
+{
+  "environment": "production",
+  "summary": "Más de cinco intentos fallidos de inicio de sesión en un minuto.",
+  "state": "active",
+  "alertname": "Aumento de intentos de acceso fallidos",
+  "value": "[ var='A' labels={} value=10.203454545454544 ], [ var='B' labels={} value=1 ]",
+  "startsAt": "2026-11-23T20:57:10Z",
+  "severity": "warning",
+  "observed_at_utc": "2026-11-23T20:58:03Z"
+}

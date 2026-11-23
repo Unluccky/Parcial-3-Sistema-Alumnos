@@ -1,0 +1,104 @@
+[
+  {
+    "result": [
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "jenkins:5001",
+          "job": "staging"
+        },
+        "value": [
+          1795467416.535,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "jenkins:5000",
+          "job": "produccion"
+        },
+        "value": [
+          1795467416.535,
+          "1"
+        ]
+      }
+    ],
+    "query": "up"
+  },
+  {
+    "result": [
+      {
+        "metric": {
+          "__name__": "login_fallidos_total",
+          "instance": "jenkins:5001",
+          "job": "staging"
+        },
+        "value": [
+          1795467418.659,
+          "4"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "login_fallidos_total",
+          "instance": "jenkins:5000",
+          "job": "produccion"
+        },
+        "value": [
+          1795467418.659,
+          "10"
+        ]
+      }
+    ],
+    "query": "login_fallidos_total"
+  },
+  {
+    "result": [
+      {
+        "metric": {
+          "__name__": "http_requests_total",
+          "endpoint": "/login",
+          "instance": "jenkins:5000",
+          "job": "produccion",
+          "method": "POST",
+          "status": "429"
+        },
+        "value": [
+          1795467420.703,
+          "21"
+        ]
+      }
+    ],
+    "query": "http_requests_total{job=\"produccion\",status=\"429\"}"
+  },
+  {
+    "result": [
+      {
+        "metric": {
+          "__name__": "peticiones_sospechosas_total",
+          "instance": "jenkins:5000",
+          "job": "produccion",
+          "tipo": "sqli"
+        },
+        "value": [
+          1795467422.738,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "peticiones_sospechosas_total",
+          "instance": "jenkins:5000",
+          "job": "produccion",
+          "tipo": "xss"
+        },
+        "value": [
+          1795467422.738,
+          "1"
+        ]
+      }
+    ],
+    "query": "peticiones_sospechosas_total{job=\"produccion\"}"
+  }
+]

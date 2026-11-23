@@ -1,0 +1,29 @@
+{
+  "health": {
+    "database": "ok",
+    "version": "11.4.0",
+    "commit": "b58701869e1a11b696010a6f28bd96b68a2cf0d0"
+  },
+  "dashboards": [
+    {
+      "id": 2,
+      "uid": "sistema-alumnos-prod",
+      "title": "Sistema Alumnos · Producción",
+      "uri": "db/sistema-alumnos-c2b7-produccion",
+      "url": "/d/sistema-alumnos-prod/sistema-alumnos-c2b7-produccion",
+      "slug": "",
+      "type": "dash-db",
+      "tags": [
+        "produccion",
+        "seguridad"
+      ],
+      "isStarred": false,
+      "folderId": 1,
+      "folderUid": "dg578bvuq1e68e",
+      "folderTitle": "Producción",
+      "folderUrl": "/dashboards/f/dg578bvuq1e68e/Producción",
+      "sortMeta": 0,
+      "isDeleted": false
+    }
+  ]
+}

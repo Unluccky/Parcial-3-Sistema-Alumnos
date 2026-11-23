@@ -5,3 +5,6 @@ __pycache__/
 reports/
 *.db
 .env
+docs/evidencias/build-3/tmp/
+docs/evidencias/build-3/artifacts.zip
+docs/evidencias/build-2/pip-audit.txt

@@ -1,0 +1,51 @@
+{
+  "_class": "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+  "artifacts": [
+    {
+      "fileName": "bandit.json",
+      "relativePath": "reports/bandit.json"
+    },
+    {
+      "fileName": "bandit.txt",
+      "relativePath": "reports/bandit.txt"
+    },
+    {
+      "fileName": "junit.xml",
+      "relativePath": "reports/junit.xml"
+    },
+    {
+      "fileName": "pip-audit.json",
+      "relativePath": "reports/pip-audit.json"
+    },
+    {
+      "fileName": "pip-audit.txt",
+      "relativePath": "reports/pip-audit.txt"
+    },
+    {
+      "fileName": "trazabilidad-build.md",
+      "relativePath": "reports/trazabilidad-build.md"
+    },
+    {
+      "fileName": "TRAZABILIDAD.md",
+      "relativePath": "reports/TRAZABILIDAD.md"
+    },
+    {
+      "fileName": "zap-alertas.json",
+      "relativePath": "reports/zap-alertas.json"
+    },
+    {
+      "fileName": "zap-report.html",
+      "relativePath": "reports/zap-report.html"
+    },
+    {
+      "fileName": "zap-resumen.txt",
+      "relativePath": "reports/zap-resumen.txt"
+    }
+  ],
+  "building": false,
+  "duration": 518915,
+  "number": 3,
+  "result": "SUCCESS",
+  "timestamp": 1795466755447,
+  "url": "http://localhost:8080/job/EV3-Sistema-Alumnos/3/"
+}
